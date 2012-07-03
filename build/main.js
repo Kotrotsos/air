@@ -1,0 +1,1 @@
+define("util",[],function(){return{init:function(){return"Util module initialized"}}}),$(function(){console.log("On the air!"),require(["util"],function(util){console.log(util.init())})}),define("main",function(){})
